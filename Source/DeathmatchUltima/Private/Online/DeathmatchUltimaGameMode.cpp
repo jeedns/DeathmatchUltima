@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "DeathmatchUltimaGameMode.h"
-#include "DeathmatchUltimaCharacter.h"
+#include "Online/DeathmatchUltimaGameMode.h"
+#include "Player/DeathmatchUltimaCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ADeathmatchUltimaGameMode::ADeathmatchUltimaGameMode()

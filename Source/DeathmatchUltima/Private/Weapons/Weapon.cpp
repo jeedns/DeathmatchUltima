@@ -62,10 +62,7 @@ bool AWeapon::IsHittingHurtable(FHitResult& HitResult) const
 void AWeapon::StartFire()
 {
 	bWantsToFire = true;
-	if (!bIsCoolingdown)
-	{
-		 ServerStartFire();
-	}
+	ServerStartFire();
 	TryFire();
 }
 
